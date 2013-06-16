@@ -1,4 +1,4 @@
-#HTML5 Reponsive Desgin
+# [HTML5 Reponsive Desgin] (www.bearall.net)
 
 This is a HTML5 Reponsive design template.
 
