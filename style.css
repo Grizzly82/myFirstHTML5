@@ -1,11 +1,11 @@
 /*
- * HTML5 Boilerplate
+ * My First HTML5 *BearAll.net*
  *
- * What follows is the result of much research on cross-browser styling.
- * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
- * Kroc Camen, and the H5BP dev community and team.
+ * This is my first attempt a repsonsive site 
+ * I will be using the boilerplate project in WebMatrix
  *
- * Detailed information about this CSS: h5bp.com/css
+ * Created by: Cris Vizcaino
+ * Date: Jun 2013
  *
  * ==|== normalize ==========================================================
  */
@@ -228,8 +228,9 @@ td { vertical-align: top; }
 .chromeframe { margin: 0.2em 0; background: #ccc; color: black; padding: 0.2em 0; }
 
 
+/*The following is custom CSS code*/
 /* ==|== primary styles =====================================================
-   Author:
+   Author: Cris Vizcaino
    ========================================================================== */
 header {
     height: 15.44em;
@@ -241,7 +242,7 @@ header {
 
 
 
-/* Clearfix */
+/* Clearfix - used for the navigation */
 .clearfix:before,
 .clearfix:after {
     content: " ";
@@ -432,7 +433,8 @@ hr
 }
 
 
-/*gradients*/
+/*gradients - Used it several times, not sure if I like the effects too much, will keep it here to keep play
+    around with it.*/
 .grd-hz-main {
     background-image: linear-gradient(bottom, rgb(137,136,143) 37%, rgb(184,184,184) 69%, rgb(222,222,222) 85%);
     background-image: -o-linear-gradient(bottom, rgb(137,136,143) 37%, rgb(184,184,184) 69%, rgb(222,222,222) 85%);
@@ -541,7 +543,7 @@ hr
 .bg-dark1.bdr{border-color: #333;}
 .bg-dark2.bdr{border-color: #666;}	
 
-/*rounded corners*/
+/*rounded corners - Like this very much, instead of using an image the code can do it for you*/
 .rnd {
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
@@ -636,9 +638,9 @@ behavior: url(css/PIE.htc);}
 
 
 /* ==|== media queries ======================================================
-   EXAMPLE Media Query for Responsive Design.
-   This example overrides the primary ('mobile first') styles
-   Modify as content requires.
+    Media Query for Responsive Design.
+   For the Meat and Potatoes of the project 
+   Used these queries to create a reponsive site of different form factors 
    ========================================================================== */
 
 /*remember, there are also media queries in the layout-core! double check there if you run into conflicts*/
